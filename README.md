@@ -11,13 +11,15 @@ Made by Nikhil and Rushil Gupta
 ## Set up Instructions
 
 Use the following commands to clone the repo:
+```
 git clone --recurse-submodules <URL>
-
+```
 OR
-
+```
 git clone <URL>
 cd containers/vid_analysis/jetson-inference
 git submodule init
 git submodule update
+```
 
 
