@@ -1,0 +1,3 @@
+[submodule "containers/vid_analysis/jetson-inference"]
+	path = containers/vid_analysis/jetson-inference
+	url = https://github.com/dusty-nv/jetson-inference.git
