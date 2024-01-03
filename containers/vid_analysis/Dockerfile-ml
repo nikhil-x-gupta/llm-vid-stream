@@ -4,4 +4,4 @@ WORKDIR build/aarch64/bin
 
 RUN sudo ldconfig
 
-CMD detectnet --network=ssd-mobilenet-v2 rtsp://192.168.200.123:1234/my_output rtsp://192.168.200.123:2234/ml_output
+CMD ./detectnet rtsp://192.168.200.123:1234/my_output rtsp://192.168.200.123:2234/ml_output
